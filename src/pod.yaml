@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: meupod
+spec:
+  containers:
+  - name: site
+    image: samuelveiga/conversao-temperatura
+    ports:
+    - containerPort: 80
